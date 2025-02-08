@@ -39,5 +39,5 @@ export default withAuth(
 // The config object defines which routes are affected by this middleware
 export const config = {
     // Matcher pattern defines which routes the middleware should apply to
-    matcher: ["/((?!api|_next/static|_next/image|favicon.ico).*) "]
+    matcher: ["/((?!api|_next/static|_next/image|favicon.ico).*)"]
 }
