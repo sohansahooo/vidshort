@@ -6,7 +6,7 @@ import { SessionProvider } from "next-auth/react"; // Import SessionProvider to 
 const urlEndpoint = process.env.NEXT_PUBLIC_URL_ENDPOINT; // Get ImageKit URL endpoint from environment variables.
 const publicKey = process.env.NEXT_PUBLIC_PUBLIC_KEY; // Get ImageKit public key from environment variables.
 
-/**
+/*
  * The Providers component wraps the entire application with necessary providers.
  * It includes:
  * 1. `SessionProvider` - Manages authentication sessions.
